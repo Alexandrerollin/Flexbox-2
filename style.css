@@ -7,9 +7,28 @@
 #sidebar {
     background-color: red;
     width: 300px;
+    display: flex;
 }
 
 #content {
     background-color: yellow;
     flex: auto;
+}
+
+#box1 {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
+
+#box2 {
+    background-color: green;
+    height: 100px;
+    width: 80%;
+}
+
+#box3 {
+    background-color: orange;
+    height: 150px;
+    width: 60%;
 }
