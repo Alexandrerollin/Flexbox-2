@@ -1,11 +1,15 @@
 #container {
+    background-color: black;
+    height: 300px;
     display: flex;
 }
 
 #sidebar {
+    background-color: red;
     width: 300px;
 }
 
 #content {
+    background-color: yellow;
     flex: auto;
 }
